@@ -1,5 +1,6 @@
+module QuantumXY
 using LinearAlgebra
-
+export method1_hamiltonian, method2_hamiltonian
 #Constructing the Hamiltonian by its action to Pauli-Z basis states
 function method1_hamiltonian(h::Float64, J::Float64, N::Int64)
     #Generating all possible bit sequence of length N
@@ -48,5 +49,5 @@ function method2_hamiltonian(h::Float64, J::Float64, N::Int64)
     end
     return mat
 end
-
+end
 
