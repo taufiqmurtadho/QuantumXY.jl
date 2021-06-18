@@ -1,5 +1,5 @@
 # QuantumXY.jl
-This is a Julia package to simulate a 1D-quantum spin chain on a ring under XY Hamiltonian.
+This is a Julia package to simulate a 1D-quantum spin chain on a ring under XY Hamiltonian and external magnetic field
 
 ## FUNCTION
 ```method1_hamiltonian(h::Float64, J::Float64, N::Int64)```: Constructing the Hamiltonian by its action toward Pauli-Z basis states
