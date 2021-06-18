@@ -1,6 +1,6 @@
 using Test
 using LinearAlgebra
-include("../src/QuantumXY.jl")
+using QuantumXY
 
 @testset "Check methods equivalence" begin
 	for n in 2:9
